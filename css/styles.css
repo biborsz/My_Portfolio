@@ -163,10 +163,10 @@ a {
   text-decoration: none;
   background-color: transparent;
 }
-/* a:hover {
-  color: #824027;
+a:hover {
+  color: #6c757d;
   text-decoration: underline;
-} */
+}
 
 a:not([href]) {
   color: inherit;
@@ -177,6 +177,10 @@ a:not([href]):hover {
   text-decoration: none;
 }
 
+.textlink {
+  text-decoration: underline;
+  font-weight: bold;
+}
 pre,
 code,
 kbd,
